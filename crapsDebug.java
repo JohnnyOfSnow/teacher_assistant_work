@@ -20,10 +20,12 @@ public class craps{
 					b = r.nextInt(6)+1;
 					ab = a+b;
 					System.out.println("You rolled " + a + "+" + b + "=" + ab);
-					if(ab == 7)
+					if(ab == 7){
 						 System.out.println("You lose");break;
-					if(ab == p)
+					}
+					if(ab == p){
 						 System.out.println("You win");break;
+					}
 				}while(p != ab);
 		}
 	}
